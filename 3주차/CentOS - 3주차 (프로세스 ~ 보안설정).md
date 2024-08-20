@@ -197,6 +197,10 @@ udp        0      0 0.0.0.0:123             0.0.0.0:*                           
 
 ### `systemctl`을 이용한 데몬 시작 및 종료
 
+#### 서비스 목록 조회
+```bash
+systemctl list-unit-files
+```
 #### 데몬 시작
 데몬을 시작하려면 `systemctl start` 명령어를 사용한다.
 ```bash
